@@ -1,11 +1,32 @@
+# Python
 venv/
 __pycache__/
 *.pyc
 .env
-data/*
-!data/README.md
+
+# Datasets
+datasets/raw/
+datasets/processed/
+datasets/KDDTest+.arff
+!datasets/.gitkeep
+
+# Models
+models/*.pkl
+models/*.cbm
+
+# Results
+results/
+*.csv
+*.png
+*.jpg
+
+# Jupyter
 .ipynb_checkpoints/
-.DS_Store
-Thumbs.db
+
+# IDE
 .vscode/
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db
