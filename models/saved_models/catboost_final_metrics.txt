@@ -1,0 +1,24 @@
+FEDCIP - FINAL OPTIMIZED CATBOOST MODEL
+=======================================
+
+Dataset: final_dataset
+Train file: train.csv
+Validation file: validation.csv
+Test file: test.csv
+
+Features: 23
+Classes: 15
+
+Iterations: 150
+Depth: 7
+Learning rate: 0.1
+Alpha: 0.25
+
+Best iteration: 149
+Training time: 13.07 minutes
+
+Test Accuracy: 0.9968
+Test Precision: 0.9967
+Test Recall: 0.9968
+Test Weighted F1: 0.9966
+Test Macro F1: 0.7587
